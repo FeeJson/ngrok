@@ -4,7 +4,7 @@
 * 公网服务器一台并且安装docker
 * 域名一枚,做Ngrok服务器域名，如：wlniao.cn
 * 生成自己的CA根证书及Ngrok域名证书，并覆盖cert目录中的ca.cer、server.crt及server.key文件
-* 拉取镜像 docker pull wlniao/ngrok
+* 拉取镜像 docker pull monkeyk/ngrok
 
 ## 首先启动一个容器生成ngrok客户端
 ```linux
